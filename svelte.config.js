@@ -23,11 +23,10 @@ const config = {
 				}
 			},
 			define: {
-				window: 'window',
-				'process.env': {},
-				global: 'window',
-				Buffer: Buffer,
-				plugins: [nodePolyfills()]
+				// 'process.env': {},
+				// global: 'window',
+				// Buffer: Buffer,
+				// plugins: [nodePolyfills()]
 			}
 		}
 	}
